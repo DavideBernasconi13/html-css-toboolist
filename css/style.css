@@ -8,15 +8,32 @@
 /* general */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #F6F8F9;
+    background-color: #444;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    border: 2px solid red;
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button.bg-blue {
+    color: #fff;
+    border: none;
 }
 
 /* utilities */
-.container {
-    max-width: 1200px;
-    border: 1px solid red;
-    height: 80vh;
-    margin: 40px auto;
+.bg-blue {
+    background: #47ADF1;
 }
 
 /* header */
@@ -34,4 +51,10 @@ header {
     font-size: 2.5rem;
     font-weight: 800;
     margin-left: 2px;
+}
+
+/* todo list button */
+.button-toDoList {
+    border-bottom: #eee 1px solid;
+    padding-bottom: 10px;
 }
