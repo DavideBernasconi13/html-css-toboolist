@@ -32,8 +32,19 @@ button.bg-blue {
 }
 
 /* utilities */
+.label {
+    padding: 5px 15px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 0.75rem;
+}
+
 .bg-blue {
     background: #47ADF1;
+}
+
+.mt-20 {
+    margin-top: 20px;
 }
 
 /* header */
@@ -57,4 +68,45 @@ header {
 .button-toDoList {
     border-bottom: #eee 1px solid;
     padding-bottom: 10px;
+}
+
+/* accordion */
+button.accordion {
+    border-radius: 0px;
+    background: transparent;
+    width: 100%;
+    text-align: left;
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #444;
+    border: none;
+}
+
+button.accordion::before {
+    content: '\25BC';
+    font-size: 0.8rem;
+    margin-right: 3px;
+}
+
+.panel {
+    padding: 10px;
+}
+
+.panel span.done,
+.panel span.toDo {
+    margin-right: 8px;
+    height: 20px;
+    width: 20px;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
+.panel span.done {
+    color: green;
+    border: 0.75px solid green;
+}
+
+.panel span.toDo {
+    color: red;
+    border: 0.75px solid red;
 }
