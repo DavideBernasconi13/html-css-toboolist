@@ -4,3 +4,34 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* general */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F6F8F9;
+}
+
+/* utilities */
+.container {
+    max-width: 1200px;
+    border: 1px solid red;
+    height: 80vh;
+    margin: 40px auto;
+}
+
+/* header */
+header {
+    background: #fff;
+    padding: 10px 30px;
+}
+
+#logo {
+    vertical-align: -12px;
+}
+
+.main-title {
+    display: inline;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-left: 2px;
+}
