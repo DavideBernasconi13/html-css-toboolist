@@ -8,13 +8,12 @@
 /* general */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #444;
+    background-color: #eee;
 }
 
 .container {
     max-width: 800px;
     margin: 40px auto;
-    border: 2px solid red;
     background: #fff;
     padding: 40px;
     border-radius: 10px;
@@ -125,9 +124,11 @@ button.accordion::before {
     margin-right: 8px;
     height: 20px;
     width: 20px;
-    border: 1px solid red;
     border-radius: 50%;
     display: inline-block;
+    line-height: 20px;
+    text-align: center;
+    font-size: 0.7rem;
 }
 
 .panel span.done {
