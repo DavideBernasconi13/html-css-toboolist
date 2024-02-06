@@ -33,14 +33,38 @@ button.bg-blue {
 
 /* utilities */
 .label {
-    padding: 5px 15px;
+    padding: 5px 10px;
     border-radius: 50px;
     color: #fff;
-    font-size: 0.75rem;
+    font-size: 0.7em;
+}
+
+.no-label {
+    display: none;
 }
 
 .bg-blue {
     background: #47ADF1;
+}
+
+.bg-violet {
+    background: #9C72E4;
+}
+
+.bg-green {
+    background: #64C0A9;
+}
+
+.bg-orange {
+    background: #F29E33;
+}
+
+.bg-magenta {
+    background: #D863A1;
+}
+
+.bg-green-light {
+    background: #B0C926;
 }
 
 .mt-20 {
@@ -92,6 +116,10 @@ button.accordion::before {
     padding: 10px;
 }
 
+.panel p {
+    margin-bottom: 20px;
+}
+
 .panel span.done,
 .panel span.toDo {
     margin-right: 8px;
@@ -99,6 +127,7 @@ button.accordion::before {
     width: 20px;
     border: 1px solid red;
     border-radius: 50%;
+    display: inline-block;
 }
 
 .panel span.done {
